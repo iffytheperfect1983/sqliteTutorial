@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB030F84161B7768009547D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F83161B7768009547D2 /* UIKit.framework */; };
+		FB030F86161B7768009547D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F85161B7768009547D2 /* Foundation.framework */; };
+		FB030F88161B7768009547D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F87161B7768009547D2 /* CoreGraphics.framework */; };
+		FB030F8E161B7768009547D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB030F8C161B7768009547D2 /* InfoPlist.strings */; };
+		FB030F90161B7768009547D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB030F8F161B7768009547D2 /* main.m */; };
+		FB030F94161B7768009547D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB030F93161B7768009547D2 /* AppDelegate.m */; };
+		FB030F96161B7768009547D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB030F95161B7768009547D2 /* Default.png */; };
+		FB030F98161B7768009547D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB030F97161B7768009547D2 /* Default@2x.png */; };
+		FB030F9A161B7768009547D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB030F99161B7768009547D2 /* Default-568h@2x.png */; };
+		FB030F9D161B7768009547D2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB030F9B161B7768009547D2 /* MainStoryboard.storyboard */; };
+		FB030FA0161B7768009547D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB030F9F161B7768009547D2 /* ViewController.m */; };
+		FB030FA7161B779D009547D2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030FA6161B779D009547D2 /* libsqlite3.0.dylib */; };
+		FB030FAA161B786B009547D2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FB030FA9161B786B009547D2 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB030F7F161B7768009547D2 /* sqliteTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqliteTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F83161B7768009547D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB030F85161B7768009547D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB030F87161B7768009547D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB030F8B161B7768009547D2 /* sqliteTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sqliteTutorial-Info.plist"; sourceTree = "<group>"; };
+		FB030F8D161B7768009547D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB030F8F161B7768009547D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB030F91161B7768009547D2 /* sqliteTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sqliteTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		FB030F92161B7768009547D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB030F93161B7768009547D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB030F95161B7768009547D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB030F97161B7768009547D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FB030F99161B7768009547D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB030F9C161B7768009547D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FB030F9E161B7768009547D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB030F9F161B7768009547D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB030FA6161B779D009547D2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FB030FA8161B786B009547D2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FB030FA9161B786B009547D2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB030F7C161B7768009547D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030FA7161B779D009547D2 /* libsqlite3.0.dylib in Frameworks */,
+				FB030F84161B7768009547D2 /* UIKit.framework in Frameworks */,
+				FB030F86161B7768009547D2 /* Foundation.framework in Frameworks */,
+				FB030F88161B7768009547D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB030F74161B7768009547D2 = {
+			isa = PBXGroup;
+			children = (
+				FB030FA6161B779D009547D2 /* libsqlite3.0.dylib */,
+				FB030F89161B7768009547D2 /* sqliteTutorial */,
+				FB030F82161B7768009547D2 /* Frameworks */,
+				FB030F80161B7768009547D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB030F80161B7768009547D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F7F161B7768009547D2 /* sqliteTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB030F82161B7768009547D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F83161B7768009547D2 /* UIKit.framework */,
+				FB030F85161B7768009547D2 /* Foundation.framework */,
+				FB030F87161B7768009547D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB030F89161B7768009547D2 /* sqliteTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F92161B7768009547D2 /* AppDelegate.h */,
+				FB030F93161B7768009547D2 /* AppDelegate.m */,
+				FB030F9B161B7768009547D2 /* MainStoryboard.storyboard */,
+				FB030FA8161B786B009547D2 /* Person.h */,
+				FB030FA9161B786B009547D2 /* Person.m */,
+				FB030F9E161B7768009547D2 /* ViewController.h */,
+				FB030F9F161B7768009547D2 /* ViewController.m */,
+				FB030F8A161B7768009547D2 /* Supporting Files */,
+			);
+			path = sqliteTutorial;
+			sourceTree = "<group>";
+		};
+		FB030F8A161B7768009547D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F8B161B7768009547D2 /* sqliteTutorial-Info.plist */,
+				FB030F8C161B7768009547D2 /* InfoPlist.strings */,
+				FB030F8F161B7768009547D2 /* main.m */,
+				FB030F91161B7768009547D2 /* sqliteTutorial-Prefix.pch */,
+				FB030F95161B7768009547D2 /* Default.png */,
+				FB030F97161B7768009547D2 /* Default@2x.png */,
+				FB030F99161B7768009547D2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB030F7E161B7768009547D2 /* sqliteTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030FA3161B7768009547D2 /* Build configuration list for PBXNativeTarget "sqliteTutorial" */;
+			buildPhases = (
+				FB030F7B161B7768009547D2 /* Sources */,
+				FB030F7C161B7768009547D2 /* Frameworks */,
+				FB030F7D161B7768009547D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqliteTutorial;
+			productName = sqliteTutorial;
+			productReference = FB030F7F161B7768009547D2 /* sqliteTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB030F76161B7768009547D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = iffytheperfect;
+			};
+			buildConfigurationList = FB030F79161B7768009547D2 /* Build configuration list for PBXProject "sqliteTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB030F74161B7768009547D2;
+			productRefGroup = FB030F80161B7768009547D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB030F7E161B7768009547D2 /* sqliteTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB030F7D161B7768009547D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F8E161B7768009547D2 /* InfoPlist.strings in Resources */,
+				FB030F96161B7768009547D2 /* Default.png in Resources */,
+				FB030F98161B7768009547D2 /* Default@2x.png in Resources */,
+				FB030F9A161B7768009547D2 /* Default-568h@2x.png in Resources */,
+				FB030F9D161B7768009547D2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB030F7B161B7768009547D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F90161B7768009547D2 /* main.m in Sources */,
+				FB030F94161B7768009547D2 /* AppDelegate.m in Sources */,
+				FB030FA0161B7768009547D2 /* ViewController.m in Sources */,
+				FB030FAA161B786B009547D2 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB030F8C161B7768009547D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB030F8D161B7768009547D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB030F9B161B7768009547D2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB030F9C161B7768009547D2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB030FA1161B7768009547D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB030FA2161B7768009547D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB030FA4161B7768009547D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sqliteTutorial/sqliteTutorial-Prefix.pch";
+				INFOPLIST_FILE = "sqliteTutorial/sqliteTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB030FA5161B7768009547D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sqliteTutorial/sqliteTutorial-Prefix.pch";
+				INFOPLIST_FILE = "sqliteTutorial/sqliteTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB030F79161B7768009547D2 /* Build configuration list for PBXProject "sqliteTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030FA1161B7768009547D2 /* Debug */,
+				FB030FA2161B7768009547D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030FA3161B7768009547D2 /* Build configuration list for PBXNativeTarget "sqliteTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030FA4161B7768009547D2 /* Debug */,
+				FB030FA5161B7768009547D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB030F76161B7768009547D2 /* Project object */;
+}
